@@ -4,20 +4,33 @@
             IChair
         </RouterLink>
         <ul class="nav">
-            <li v-for="(nav) in navs" :key="nav.id">
-                    <RouterLink to="/">{{ nav.name }}</RouterLink>
+            <li v-for="(nav) in navs" :key="nav.id" >
+                    <RouterLink to="/" v-if="nav.name === 'Home'" :class="{active:nav.active}" @click="handleNavActive(nav.id)"><i class="bi bi-house-door-fill"></i></RouterLink>
+                    <RouterLink v-else to="/" @click="handleNavActive(nav.id)">{{ nav.name }}</RouterLink>
             </li>
         </ul>
-        <div class="features"></div>
+        <div class="features">
+            <CartBtn/>
+        </div>
     </header>
 </template>
 <script setup>
 import { navsData } from '@/data/data';
+import CartBtn from "./CartBtn.vue"
 import { ref } from 'vue';
 
 
 const navs = ref(navsData)
-    
+
+const handleNavActive = (id) => {
+    navs.value.map((nav) => {
+        nav.active = false;
+        if (nav.id === id) {
+            nav.active = true;
+        }
+        return nav;
+    });
+};
 
 
 </script>
@@ -58,7 +71,7 @@ header {
 }
 
 .nav li:hover a,
-.nav li a:active{
+.nav li a.active{
     color: var(--primary);
 }
 .features {
