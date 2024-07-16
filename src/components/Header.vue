@@ -51,6 +51,9 @@ header {
     .nav{
         display:none;
     }
+    .logo{
+        margin-left: 1rem;
+    }
 }
 
 
