@@ -1,0 +1,194 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "name": "HyperFlex Gaming Throne 3.0",
+        "brief": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit ametaliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.",
+        "details": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.",
+        "colors": [
+          { "id": 1, "color": "#fdb82c", "active": true },
+          { "id": 2, "color": "#3ab7f7", "active": false },
+          { "id": 3, "color": "#fa5b5f", "active": false }
+        ],
+        "color": "#fdb82c",
+        "qty": 1,
+        "bgColor": "#fdb82c",
+        "price": 399,
+        "discount": 0.05,
+        "imgUrl": "/images/item-img-1.png",
+        "videoUrl": "https://www.youtube.com/watch?v=Fkey2ZvX6lU",
+        "active": true
+      },
+      {
+        "id": 2,
+        "name": "ZenithX Ultimate Gaming Seat 4.0",
+        "brief": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit ametaliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.",
+        "details": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.",
+        "colors": [
+          { "id": 1, "color": "#fdb82c", "active": true },
+          { "id": 2, "color": "#3ab7f7", "active": false },
+          { "id": 3, "color": "#fa5b5f", "active": false }
+        ],
+        "color": "#fdb82c",
+        "qty": 1,
+        "bgColor": "#fa5b5f",
+        "price": 669,
+        "discount": 0.0,
+        "imgUrl": "/images/item-img-2.png",
+        "videoUrl": "https://www.youtube.com/watch?v=Fkey2ZvX6lU",
+        "active": false
+      },
+      {
+        "id": 3,
+        "name": "EvoMotion Gaming Cruiser 2.0",
+        "brief": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit ametaliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.",
+        "details": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.",
+        "colors": [
+          { "id": 1, "color": "#fdb82c", "active": true },
+          { "id": 2, "color": "#3ab7f7", "active": false },
+          { "id": 3, "color": "#fa5b5f", "active": false }
+        ],
+        "color": "#fdb82c",
+        "qty": 1,
+        "bgColor": "#67bb4a",
+        "price": 890,
+        "discount": 0.1,
+        "imgUrl": "/images/item-img-3.png",
+        "videoUrl": "https://www.youtube.com/watch?v=Fkey2ZvX6lU",
+        "active": false
+      },
+      {
+        "id": 4,
+        "name": "NovaCore Elite Gaming Throne 1.0",
+        "brief": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit ametaliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.",
+        "details": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.",
+        "colors": [
+          { "id": 1, "color": "#fdb82c", "active": true },
+          { "id": 2, "color": "#3ab7f7", "active": false },
+          { "id": 3, "color": "#fa5b5f", "active": false }
+        ],
+        "color": "#fdb82c",
+        "qty": 1,
+        "bgColor": "#3ab7f7",
+        "price": 1047,
+        "discount": 0.0,
+        "imgUrl": "/images/item-img-4.png",
+        "videoUrl": "https://www.youtube.com/watch?v=Fkey2ZvX6lU",
+        "active": false
+      },
+      {
+        "id": 5,
+        "name": "SpectraGlide Pro Gaming Chair",
+        "brief": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit ametaliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.",
+        "details": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.",
+        "colors": [
+          { "id": 1, "color": "#fdb82c", "active": true },
+          { "id": 2, "color": "#3ab7f7", "active": false },
+          { "id": 3, "color": "#fa5b5f", "active": false }
+        ],
+        "color": "#fdb82c",
+        "qty": 1,
+        "bgColor": "#fdb82c",
+        "price": 2960,
+        "discount": 0.0,
+        "imgUrl": "/images/item-img-5.png",
+        "videoUrl": "https://www.youtube.com/watch?v=Fkey2ZvX6lU",
+        "active": false
+      },
+      {
+        "id": 6,
+        "name": "TitanStrike Gaming Fortress",
+        "brief": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit ametaliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.",
+        "details": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.",
+        "colors": [
+          { "id": 1, "color": "#fdb82c", "active": true },
+          { "id": 2, "color": "#3ab7f7", "active": false },
+          { "id": 3, "color": "#fa5b5f", "active": false }
+        ],
+        "color": "#fdb82c",
+        "qty": 1,
+        "bgColor": "#e64ba7",
+        "price": 2300,
+        "discount": 0.2,
+        "imgUrl": "/images/item-img-6.png",
+        "videoUrl": "https://www.youtube.com/watch?v=Fkey2ZvX6lU",
+        "active": false
+      },
+      {
+        "id": 7,
+        "name": "CyberWave Gaming Throne",
+        "brief": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit ametaliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.",
+        "details": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.",
+        "colors": [
+          { "id": 1, "color": "#fdb82c", "active": true },
+          { "id": 2, "color": "#3ab7f7", "active": false },
+          { "id": 3, "color": "#fa5b5f", "active": false }
+        ],
+        "color": "#fdb82c",
+        "qty": 1,
+        "bgColor": "#dee0de",
+        "price": 1688,
+        "discount": 0.05,
+        "imgUrl": "/images/item-img-7.png",
+        "videoUrl": "https://www.youtube.com/watch?v=Fkey2ZvX6lU",
+        "active": false
+      },
+      {
+        "id": 8,
+        "name": "QuantumForce X Gaming Pod",
+        "brief": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit ametaliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.",
+        "details": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.",
+        "colors": [
+          { "id": 1, "color": "#fdb82c", "active": true },
+          { "id": 2, "color": "#3ab7f7", "active": false },
+          { "id": 3, "color": "#fa5b5f", "active": false }
+        ],
+        "color": "#fdb82c",
+        "qty": 1,
+        "bgColor": "#a7a7a7",
+        "price": 2599,
+        "discount": 0.0,
+        "imgUrl": "/images/item-img-8.png",
+        "videoUrl": "https://www.youtube.com/watch?v=Fkey2ZvX6lU",
+        "active": false
+      }
+    ],
+    "services": [
+      {
+        "_id": 1,
+        "name": "Nesciunt Mete",
+        "details": "Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.",
+        "icon": "bi bi-activity"
+      },
+      {
+        "_id": 2,
+        "name": "Eosle Commodi",
+        "details": "Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.",
+        "icon": "bi bi-broadcast"
+      },
+      {
+        "_id": 3,
+        "name": "Ledo Markt",
+        "details": "Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.",
+        "icon": "bi bi-easel"
+      },
+      {
+        "_id": 4,
+        "name": "Asperiores Commodit",
+        "details": "Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.",
+        "icon": "bi bi-bounding-box-circles"
+      },
+      {
+        "_id": 5,
+        "name": "Velit Doloremque",
+        "details": "Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.",
+        "icon": "bi bi-calendar4-week"
+      },
+      {
+        "_id": 6,
+        "name": "Dolori Architecto",
+        "details": "Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.",
+        "icon": "bi bi-chat-square-text"
+      }
+    ]
+  }
