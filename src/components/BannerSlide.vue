@@ -1,41 +1,38 @@
 <template>
-    <div class="banner-slide" :class="{ active: item.active }">
-        <div class="content">
-            <h1>{{ item.name }}</h1>
-            <p>{{ item.brief.slice(0, 100) }}</p>
-            <div class="colors">
-                <h4>Color</h4>
-                <div class="color-list">
-                    <span v-for="(color) in item.colors" :key="color.id" :style="{ background: color.color }"
-                        :class="{ active: color.active }"></span>
-                </div>
-            </div>
-            <div class="pricing">
-                <RouterLink :to="`/products/${item.id}`" class="add-to-cart">
-                    Learn More
-                </RouterLink>
-                <span class="price" :style="[item.discount !== 0 &&{
-                    textDecoration:'line-through',
-                    textDecorationColor:'red',
-                    fontSize:'1.2rem'
-
-                }]">
-                    ${{ item.price.toLocaleString()}}
-                </span>
-
-                <span class="price" v-if="item.discout !== 0">
-                    ${{ (item.price * (1 - item.discount)).toFixed(0) }}
-                </span>
-
-            </div>
-        </div>
-        <div class="item-img">
-            <div class="img-container" :class="{active:item.active}" :style="{background:item.bgColor}">
-                <img :src="item.imgUrl" alt="">
-            </div>
-        </div>
-    </div>
+  <div class="banner-slide" :class="{ active: item.active }">
+      <div class="content">
+          <h1>{{ item.name }}</h1>
+          <p>{{ item.brief.slice(0, 100) }}</p>
+          <div class="colors">
+              <h4>Color</h4>
+              <div class="color-list">
+                  <span v-for="(color) in item.colors" :key="color.id" :style="{ background: color.color }"
+                      :class="{ active: color.active }"></span>
+              </div>
+          </div>
+          <div class="pricing">
+              <RouterLink :to="`/products/${item.id}`" class="add-to-cart">
+                  Learn More
+              </RouterLink>
+              <span v-if="item.discount === 0" class="price">
+                  ${{ item.price.toFixed(0)  }}
+              </span>
+              <span v-else class="price" :style="{ textDecoration: 'line-through', textDecorationColor: 'red', fontSize: '1.2rem' }">
+                  ${{ item.price.toFixed(0)  }}
+              </span>
+              <span v-if="item.discount !== 0" class="price">
+                  ${{ (item.price * (1 - item.discount)).toFixed(0) }}
+              </span>
+          </div>
+      </div>
+      <div class="item-img">
+          <div class="img-container" :class="{ active: item.active }" :style="{ background: item.bgColor }">
+              <img :src="item.imgUrl" alt="">
+          </div>
+      </div>
+  </div>
 </template>
+
 <script setup>
 import { RouterLink } from 'vue-router';
 
@@ -44,7 +41,7 @@ const props = defineProps({
         type: Object,
         required: true
     },
-})
+});
 </script>
 <style scoped>
 .banner-slide {

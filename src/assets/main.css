@@ -38,4 +38,30 @@ a {
 
 section .section-title {
   position: relative;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: .5rem;
+}
+
+section .section-title::after {
+  position: absolute;
+  content: '';
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -30px;
+  height: 3px;
+  width: 50%;
+  background: linear-gradient(90deg, transparent, var(--primary), var(--primary), transparent);
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  section {
+      padding-left: 15%;
+  }
 }

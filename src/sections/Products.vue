@@ -26,5 +26,7 @@ import { onMounted, ref } from 'vue';
     })
 </script>   
 <style scoped>
-
+.products {
+    background: #1e1e1e !important;
+}
 </style>
