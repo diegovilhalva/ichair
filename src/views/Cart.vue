@@ -115,4 +115,10 @@ const total = handleTotalPayment();
         padding-left: 5%;
     }
 }
+
+@media (max-width:600px) {
+    .container{
+        padding-left: 15%;
+    }
+}
 </style>
