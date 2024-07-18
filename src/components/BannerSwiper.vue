@@ -102,5 +102,22 @@ const props = defineProps({
       padding-bottom: 30px;
     }
   }
+  @media (max-width: 768px) {
+    .swiper {
+        left: 60%;
+        transform: translateX(-50%);
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 70%;
+        bottom: 100px;
+        right: 0;
+        display: none;
+    }
+
+    .swiper .swiper-button-prev,
+    .swiper .swiper-button-next {
+        display: none;
+    }
+}
  
 </style>

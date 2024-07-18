@@ -1,12 +1,15 @@
 <template>
     <div class="cart-btn">
-        <RouterLink to="/card" class="cart" >
+        <RouterLink to="/cart" class="cart" >
             <i class="bi bi-cart2"></i>
         </RouterLink>
-        <span class="count">1</span>
+        <span class="count">{{cart.length}}</span>
     </div>
 </template>
 <script setup>
+import { inject, ref } from 'vue';
+
+    const cart = ref(inject('cart'))
 </script>
 <style scoped>
 .cart-btn {

@@ -41,6 +41,14 @@ const handleBannerChange = (id) => {
 @media (max-width:768px) {
     .banner {
         min-height: 100vh;
+
+    }
+}
+
+@media (max-width:380px) {
+    .banner {
+        min-height: 115vh;
+
     }
 }
 </style>

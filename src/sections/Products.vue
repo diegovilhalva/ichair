@@ -5,7 +5,7 @@
                 <h4 class="section-title">Products</h4>
             </div>
             <div class="row mt-4">
-                <div class="col-xl-3 col-lg-4 col-md-6 mt-4" v-for="(item) in items" :key="item.id">
+                <div class="col-xl-3 col-lg-4 col-md-6 mt-4 mb-3" v-for="(item) in items" :key="item.id">
                         <ItemCard :item="item"/>
                 </div>
             </div>
@@ -28,5 +28,6 @@ import { onMounted, ref } from 'vue';
 <style scoped>
 .products {
     background: #1e1e1e !important;
+    margin-bottom: 1rem;
 }
 </style>

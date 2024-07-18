@@ -11,14 +11,14 @@
               </div>
           </div>
           <div class="pricing">
-              <RouterLink :to="`/products/${item.id}`" class="add-to-cart">
+              <RouterLink :to="`/products/${item.id}`" class="add-to-cart btn">
                   Learn More
               </RouterLink>
               <span v-if="item.discount === 0" class="price">
-                  ${{ item.price.toFixed(0)  }}
+                  ${{ item.price.toFixed(0).toLocaleString()  }}
               </span>
               <span v-else class="price" :style="{ textDecoration: 'line-through', textDecorationColor: 'red', fontSize: '1.2rem' }">
-                  ${{ item.price.toFixed(0)  }}
+                  ${{ item.price.toFixed(0).toLocaleString()  }}
               </span>
               <span v-if="item.discount !== 0" class="price">
                   ${{ (item.price * (1 - item.discount)).toFixed(0) }}
@@ -214,7 +214,7 @@ const props = defineProps({
   }
   @media(max-width:1440px) {
     .content {
-      padding-bottom: 100px;
+      padding-bottom: 150px;
     }
   
     .content h1 {
@@ -280,10 +280,14 @@ const props = defineProps({
   
     .content h1 {
       font-size: 2rem;
+      margin-top: 2.5rem;
     }
   
     .content .pricing {
       gap: 15px;
+    }
+    .pricing{
+      margin-bottom: 1rem;
     }
   
     .item-img {
