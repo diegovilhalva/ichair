@@ -19,7 +19,7 @@ import { onMounted, ref } from 'vue';
     import ItemCard from "@/components/ItemCard.vue"
 
     onMounted(()=> {
-        fetch('http://localhost:4000/items')
+        fetch('https://json-data-sooty.vercel.app/items')
         .then(res => res.json())
         .then(data => items.value = data)
         .catch(err => console.log(err.message))

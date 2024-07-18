@@ -85,7 +85,7 @@ const handleQtyChange = (add = true) => {
 }
 
 onMounted(() => {
-    fetch(`http://localhost:4000/items/${id}`)
+    fetch(`https://json-data-sooty.vercel.app/items/${id}`)
         .then(res => res.json())
         .then(data => item.value = data)
         .catch(err => console.log(err))
